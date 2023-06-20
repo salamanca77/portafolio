@@ -1,3 +1,5 @@
+import { Card } from "../components/Card";
+
 export function Proyectos(){
-    return <h1>Proyectos</h1>
+    return <Card />
 }
