@@ -1,0 +1,12 @@
+.menuHead-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuHaead-navLink-00,
+.menuHaead-navLink-01,
+.menuHaead-navLink-02,
+.menuHaead-navLink-03 {
+    
+    border-bottom:thin solid black;
+}
