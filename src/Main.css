@@ -1,0 +1,21 @@
+.mainHead{
+    padding:2rem;
+    padding-top:4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    max-height:var(--container-width);
+    min-height:100vh;
+    text-align:center;
+    /* background-color: aqua; */
+}
+.main-section{
+    padding:2rem;
+    padding-top:4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    max-height:var(--container-width);
+    min-height:100vh;
+    text-align:center;
+}

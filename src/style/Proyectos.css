@@ -1,11 +1,14 @@
-
-
-
 .proyectos-section{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr) );
     margin-left: auto;     
     width: 800px;
     margin-right: auto;
-    min-height:100vh
+    min-height:100vh */
 }    
+
+.proyectos-section-div-02{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+}

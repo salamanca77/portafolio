@@ -1,5 +1,5 @@
 export function SobreMi(){
     return(
-        <h1>Sobre mi</h1>
+        <section className="bg-blue-200 h-[90vh]">Sobre mi</section>
     )
 }

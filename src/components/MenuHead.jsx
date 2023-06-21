@@ -1,13 +1,24 @@
 import { Link, NavLink } from "react-router-dom"
-import "../style/MenuHead.css"
+import { FaFacebook } from 'react-icons/fa'; /* iconos --- https://react-icons.github.io/react-icons/ */
 
-export function MenuHead(){
-    return (
-        <nav className="menuHead-nav">
-          <NavLink className={({isActive}) => isActive? "menuHaead-navLink-00":null} to="/sobre-mi">Sobre mi</NavLink> 
-          <NavLink className={({isActive}) => isActive? "menuHaead-navLink-01":null} to="/skills">Skills</NavLink> 
-          <NavLink className={({isActive}) => isActive? "menuHaead-navLink-02":null} to="/proyectos">Proyectos</NavLink> 
-          <NavLink className={({isActive}) => isActive? "menuHaead-navLink-03":null} to="/contactos">Contactos</NavLink> 
-        </nav>
-    )
+export function MenuHead() {
+  return (
+    <header className="flex items-center w-full p-4 h-[10vh] bg-red-200">
+      <nav className="flex-1 flex justify-center gap-10" >
+        <a href="" className="">
+          Sobre mi
+        </a>
+        <a href="" className="">
+          Skill
+        </a>
+        <a href="" className="">
+          Proyectos
+        </a>
+        <a href="" className="">
+          Contactos
+        </a>
+      </nav>
+    </header>
+
+  )
 }
